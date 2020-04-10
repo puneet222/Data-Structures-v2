@@ -12,7 +12,7 @@ bool containsDuplicate(vector<int> &nums)
     {
         if (map.find(nums[i]) == map.end())
         {
-            // not found
+            // element not found
             map[nums[i]] = true;
         }
         else
